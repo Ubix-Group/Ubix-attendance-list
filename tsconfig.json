@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es6",
-    "outDir": "./dist/",
+    "outDir": "front-end/dist",
     "lib": [
       "es2017"
     ],
@@ -20,9 +20,9 @@
     "skipLibCheck": true
   },
   "include": [
-    "./src/**/*.ts",
-    "./src/**/*.tsx",
-    "./src/**/*.js",
-    "./src/**/*.jsx"
+    "front-end/src/**/*.ts",
+    "front-end/src/**/*.tsx",
+    "front-end/src/**/*.js",
+    "front-end/src/**/*.jsx"
   ]
 }
